@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="YLALC" Class="ALCDateDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ylalcs01;Initial Catalog=YLALC;Persist Security Info=True;User ID=asmequ11" SettingsObjectName="ChangeCarColor_Omron.Properties.Settings" SettingsPropertyName="YLALCConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.WBS_link_tag_view" Member="WBS_link_tag_view">
+    <Type Name="WBS_link_tag_view">
+      <Column Name="tag_no" Type="System.String" DbType="VarChar(8000)" CanBeNull="true" />
+      <Column Name="modl" Type="System.String" DbType="Char(7) NOT NULL" CanBeNull="false" />
+      <Column Name="chs_no" Type="System.String" DbType="Char(6) NOT NULL" CanBeNull="false" />
+      <Column Name="spec" Type="System.String" DbType="Char(4) NOT NULL" CanBeNull="false" />
+      <Column Name="option_code" Type="System.String" DbType="Char(5)" CanBeNull="true" />
+      <Column Name="colr" Type="System.String" DbType="Char(3) NOT NULL" CanBeNull="false" />
+      <Column Name="tag_dttm" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

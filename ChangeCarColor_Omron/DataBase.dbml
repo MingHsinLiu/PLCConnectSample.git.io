@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="PaintAPP" Class="DataBaseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ylpeps02;Initial Catalog=PaintAPP;Persist Security Info=True;User ID=PaintAP01" SettingsObjectName="ChangeCarColor_Omron.Properties.Settings" SettingsPropertyName="PaintAPPConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.WBSList" Member="WBSList">
+    <Type Name="WBSList">
+      <Column Name="[index]" Member="index" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tag_no" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Color" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

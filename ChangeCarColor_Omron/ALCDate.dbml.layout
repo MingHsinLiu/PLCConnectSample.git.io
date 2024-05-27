@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ALCDate">
+  <DataContextMoniker Name="/ALCDateDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3c28632c-fd8e-4516-abac-6a8c5ba56d25" absoluteBounds="4.125, 1.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/ALCDateDataContext/WBS_link_tag_view" />
+      <nestedChildShapes>
+        <elementListCompartment Id="43f73218-660e-4de2-a23e-a19081acea17" absoluteBounds="4.14, 2.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
